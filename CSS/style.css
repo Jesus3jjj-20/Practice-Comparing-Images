@@ -1,0 +1,14 @@
+
+#images{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.colum{
+    flex-basis: 50%;
+}
+
+img{
+    width: 100%;
+}
