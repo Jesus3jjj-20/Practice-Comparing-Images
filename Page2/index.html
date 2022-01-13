@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <title>Comparing  Images</title>
+</head>
+<body>
+
+    <h1>Practice comparing images</h1>
+
+    <table>
+        <tr>
+            <th colspan="2">Performance information</th>
+        </tr>
+        <tr>
+            <th>Average size</th>
+            <td></td>
+        </tr>
+        <tr>
+            <th>Image format used</th>
+            <td>JPG, PNG and GIF</td>
+        </tr>
+        <tr>
+            <th>Loading time</th>
+            <td></td>
+        </tr>
+    </table>
+
+    <br/>
+
+    <a href="../index.html">Go to page 1</a>
+    <br/>
+    <a href="../Page3/index.html">Go to page 3 (Optimized image sizes and new image formats)</a>
+    <br/><br/>
+
+    <div id="images">
+
+        <div class="colum">
+
+
+                <img srcset="Images/beach-gb7628c5e5_480.jpg 480w,
+                             Images/beach-gb7628c5e5_320.jpg 320w"
+                sizes="(max-width: 320px) 280px,
+                       (max-width: 480px) 440px,
+                        640px"
+                src="Images/beach-gb7628c5e5_640.jpg" alt="https://pixabay.com/photos/beach-sea-island-summer-vacations-6514331/" />
+
+
+
+
+                <img srcset="Images/train-g4a27b61ff_800.jpg 800w,
+                             Images/train-g4a27b61ff_480.jpg 480w,
+                             Images/train-g4a27b61ff_320.jpg 320w"
+                sizes="(max-width: 320px) 280px,
+                       (max-width: 480px) 440px,
+                       (max-width: 800px) 760px,
+                       1280px"
+                
+                src="Images/train-g4a27b61ff_1280.jpg" 
+                alt="https://pixabay.com/es/photos/tren-nevada-nieve-invierno-6907884/"/>
+
+                
+
+
+                <img srcset="Images/cathedral-g3f311b6a1_800.jpg 800w,
+                             Images/cathedral-g3f311b6a1_480.jpg 480w,
+                             Images/cathedral-g3f311b6a1_320.jpg 320w"
+                sizes="(max-width: 320px) 280px,
+                       (max-width: 480px) 440px,
+                       (max-width: 800px) 760px,
+                       1280px"
+                 src="Images/cathedral-g3f311b6a1_1280.jpg"
+                 alt="https://pixabay.com/photos/cathedral-building-historical-6830531/"/>
+
+
+
+
+                 <img srcset="Images/cathedral-g591557058_800.jpg 800w,
+                              Images/cathedral-g591557058_480.jpg 480w,
+                              Images/cathedral-g591557058_320.jpg 320w"
+                sizes="(max-width: 320px) 280px,
+                       (max-width: 480px) 440px,
+                       (max-width: 800px) 760px,
+                       1280px"
+
+
+                  src="Images/cathedral-g591557058_1280.jpg" 
+                  alt="https://pixabay.com/photos/cathedral-church-architecture-6709412/"/>
+
+
+                <img srcset="Images/leopard-gc9ebaef86_1920.jpg 1920w,
+                             Images/leopard-gc9ebaef86_1280.jpg 1280w,
+                             Images/leopard-gc9ebaef86_800.jpg 800w,
+                             Images/leopard-gc9ebaef86_480.jpg 480w,
+                             Images/leopard-gc9ebaef86_230.jpg 320w"
+                sizes="(max-width: 320px) 280px,
+                       (max-width: 480px) 440px,
+                       (max-width: 800px) 760px,
+                       (max-width: 1280px) 1240px,
+                       1920px"
+                
+                src="Images/leopard-gc9ebaef86_1920.jpg" 
+                alt="https://pixabay.com/photos/leopard-animal-mammal-predator-6899752/"/>
+
+
+
+                <img srcset="Images/mountains-g7fcb2b3ed_800.jpg 800w,
+                             Images/mountains-g7fcb2b3ed_480.jpg 480w,
+                             Images/mountains-g7fcb2b3ed_320.jpg 320w"
+                sizes="(max-width: 320px) 280px,
+                       (max-width: 480px) 440px,
+                       (max-width: 800px) 760px,
+                       1280px"
+
+                src="Images/mountains-g7fcb2b3ed_1280.jpg" 
+                alt="https://pixabay.com/photos/mountains-snow-alps-switzerland-6791530/"/>
+        </div>
+
+        <div class="colum">
+
+                <img srcset="Images/png-g0e94dd4d1_800.png 800w,
+                             Images/png-g0e94dd4d1_480.png 480w,
+                             Images/png-g0e94dd4d1_320.png 320w"
+                sizes="(max-width: 320px) 280px,
+                       (max-width: 480px) 440px,
+                       (max-width: 800px) 760px,
+                       1280px"
+                
+                src="Images/png-g0e94dd4d1_1280.png" 
+                alt="https://pixabay.com/es/photos/png-perro-animal-2687339/"/>
+
+
+                <img srcset="Images/paris-g2857c362b_800.jpg 800w,
+                             Images/paris-g2857c362b_480.jpg 480w,
+                             Images/paris-g2857c362b_320.jpg 320w"
+                sizes="(max-width: 320px) 280px,
+                (max-width: 480px) 440px,
+                (max-width: 800px) 760px,
+                1280px"
+                
+                src="Images/paris-g2857c362b_1280.jpg" 
+                alt="https://pixabay.com/photos/paris-france-city-buildings-6510643/"/>
+
+
+                <img srcset="Images/happy-new-year-g5f68d679d_800.png 800w,
+                             Images/happy-new-year-g5f68d679d_480.png 480w,
+                             Images/happy-new-year-g5f68d679d_320.png 320w"
+                sizes="(max-width: 320px) 280px,
+                       (max-width: 480px) 440px,
+                       (max-width: 800px) 760px,
+                       1280px"
+                
+                src="Images/happy-new-year-g5f68d679d_1280.png" 
+                alt="https://pixabay.com/es/illustrations/feliz-a%c3%b1o-nuevo-2022-saludos-6840369/"/>
+
+
+
+                <img srcset="Images/lake-ga07c5d85a_800.jpg 800w,
+                             Images/lake-ga07c5d85a_480.jpg 480w,
+                             Images/lake-ga07c5d85a_320.jpg 320w"
+                sizes="(max-width: 320px) 280px,
+                       (max-width: 480px) 440px,
+                       (max-width: 800px) 760px,
+                       1280px"
+                
+                src="Images/lake-ga07c5d85a_1280.jpg" 
+                alt="https://pixabay.com/es/photos/lago-naturaleza-viaje-exploraci%c3%b3n-6701636/"/>
+
+
+
+                <img srcset="Images/fence-gc386cd256_800.png 800w,
+                             Images/fence-gc386cd256_480.png 480w,
+                             Images/fence-gc386cd256_320.png 320w"
+                sizes="(max-width: 320px) 280px,
+                       (max-width: 480px) 440px,
+                       (max-width: 800px) 760px,
+                       1280px"
+                
+                src="Images/fence-gc386cd256_1280.png" 
+                alt="https://pixabay.com/es/illustrations/valla-valla-de-madera-png-recorte-2157215/"/>
+
+
+                <img src="Images/Hexaedro_Regular.gif" alt="By J.Joel Leonardo - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=69077664"/>
+        </div>
+    </div>
+
+
+</body>
+</html>
